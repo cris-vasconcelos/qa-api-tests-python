@@ -3,7 +3,7 @@ import pytest
 
 @pytest.mark.parametrize("user_id, status_esperado,nome_esperado",
     [
-    (1, 201,"Leanne Graham"), 
+    (1, 200,"Leanne Graham"), 
      (999,404,None)
     ]
 )
